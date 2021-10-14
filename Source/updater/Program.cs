@@ -20,10 +20,12 @@ namespace updater
         private static Version VersionNew;
 
         private static string NameDownloadFileMain = "main.zip";
-        private static string UrlDownloadFileMain = "http://test.test/" + NameDownloadFileMain;
+        //private static string UrlDownloadFileMain = "http://test.test/" + NameDownloadFileMain;
+        private static string UrlDownloadFileMain = "https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1JNWSWvw22vcCVl0N_ykRUFXNsz9ejR3F";
 
         private static string NameVersionFile = "version.xml";
-        private static string UrlVersionFile = "http://test.test/" + NameVersionFile;
+        //private static string UrlVersionFile = "http://test.test/" + NameVersionFile;
+        private static string UrlVersionFile = "https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1ef6LJEWk1Rj4IlQUZDXM0OE8BIqjT4cq";
 
         private static bool theend = false;
         private static bool isStart = false;
