@@ -122,8 +122,10 @@
     <Compile Include="Modules\IModule.cs" />
     <Compile Include="Modules\LiveReload\LiveReloadModule.cs" />
     <Compile Include="Modules\Plugins\PluginLoaderModule.cs" />
+    <Compile Include="Modules\Updater\MainType.cs" />
+    <Compile Include="Modules\Updater\TypeUpdate.cs" />
     <Compile Include="Modules\Updater\UpdateManager.cs" />
-    <Compile Include="Modules\Updater\Updater.cs" />
+    <Compile Include="Modules\Updater\UpdaterType.cs" />
     <Compile Include="Modules\Workshop\WorkshopManagerPatch.cs" />
     <Compile Include="Modules\Workshop\WorkshopModule.cs" />
     <Compile Include="IPlugin.cs" />

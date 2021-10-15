@@ -97,6 +97,8 @@ namespace Stationeers.Addons.Core
         {
             DontDestroyOnLoad(gameObject);
 
+            gameObject.AddComponent<UpdateManager>();
+
             // Show stacktrace only when it's exception or assert
             Application.SetStackTraceLogType(LogType.Log, StackTraceLogType.None);
             Application.SetStackTraceLogType(LogType.Warning, StackTraceLogType.None);
@@ -126,9 +128,6 @@ namespace Stationeers.Addons.Core
         {
             if(!IsDedicatedServer)
             {
-
-                //start update
-                UpdateManager.StartUpdate();
 
                 // Check version
                 yield return CheckVersion();
@@ -169,12 +168,6 @@ namespace Stationeers.Addons.Core
         private void Update()
         {
             LiveReload?.Update();
-
-            if (UpdateManager.isRestart)
-            {
-                Process.GetCurrentProcess().Kill();
-            }
-
         }
 
         internal IEnumerator Reload()
