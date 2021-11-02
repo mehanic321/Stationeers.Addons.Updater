@@ -17,7 +17,7 @@
 * [Официальный Github](https://github.com/Erdroy/Stationeers.Addons)
 
 ## Сборка
-Требуется Visual Studio 2019, рекомендуется установка Visual Studio Tools for Unity.
+Требуется `Visual Studio 2019`, рекомендуется установка `Visual Studio Tools for Unity`.
 Прочтите файл [README] (Libraries/Stationeers/README.md).
 Откройте `Source / Stationeers.Addons.sln` и начните играть с ним!
 
