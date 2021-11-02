@@ -1,54 +1,50 @@
 # Stationeers.Addons
 <a href="https://discord.gg/b6kFrUATdm"><img src="https://discordapp.com/api/guilds/795601381956124693/widget.png"/></a></br>
 
-**Stationeers.Addons** is a fully-fledged modding framework for [Stationeers](https://store.steampowered.com/app/544550/Stationeers/). Working just like the standard mods (XML) but with scripting and custom-content support!
+**Stationeers.Addons** это полноценный фреймворк для моддинга [Stationeers](https://store.steampowered.com/app/544550/Stationeers/). Работает так же, как стандартные моды (XML), но с поддержкой сценариев и настраиваемого содержимого!
 
-**Current status:** Available for early testing.<br>
+**Текущий статус:** Доступно для раннего тестирования.<br>
 
-## Download & Installation
-If you have already installed the Addons, make sure to run file verification through Steam before installing a new version (go to Steam, click RMB on the game, open **Properties**, go to **Local Files** and click on **Verify integrity of game files...**)!
+## Загрузка и установка
+Если вы уже установили Аддоны, обязательно, запустите проверку файлов через Steam, перед установкой новой версии (перейдите в Steam, щелкните ПКМ по игре, откройте ** Свойства **, перейдите в ** Локальные файлы ** и нажмите ** Проверить целостность файлов игры ... **)!
  
-Go to [Releases](https://github.com/Erdroy/Stationeers.Addons/releases), select latest release and download zip file named 'Stationeers.Addons-vX.X-X.zip'. Now go to Steam, click RMB on the game, open **Properties**, go to **Local Files** and click on **BROWSE LOCAL FILES**. It should open new window for you. Next, you have to open the downloaded zip and drag all of its contents into the game folder (`AddonManager` folder and `version.dll`). And that's it! Enjoy your mods!
+Перейдите в [Releases](https://github.com/Erdroy/Stationeers.Addons/releases), выберите последнюю версию и загрузите zip-файл с именем Stationeers.Addons-vX.X-X.zip. Теперь перейдите в Steam, нажмите ПКМ на игре, откройте ** Свойства **, перейдите в ** Локальные файлы ** и нажмите ** ПРОСМОТР ЛОКАЛЬНЫХ ФАЙЛОВ **. Это открое новое окно для вас. Затем вам нужно открыть загруженный zip-архив и перетащить все его содержимое в папку с игрой (папка `AddonManager` и` version.dll`). Вот и все! Наслаждайтесь своими модами!
 
-***Note:** After you've subscribed to an addon on the workshop, you have to restart the game. This will be improved in the future.*
-
-## Links
+***Примечание:** После того, как вы подписались на аддон в Мастерской, вам необходимо перезапустить игру. Это будет улучшено в будущем.*
+## Ссылки
 * [Discord](https://discord.gg/b6kFrUATdm)
 * [Trello](https://trello.com/b/zSHKh2XO/stationeersaddons)
-* [Official Github](https://github.com/Erdroy/Stationeers.Addons)
+* [Официальный Github](https://github.com/Erdroy/Stationeers.Addons)
 
-## Building
-`Visual Studio 2019` is required and `Visual Studio Tools for Unity` installation is recommended.
-Please read Libraries [README](Libraries/Stationeers/README.md) file.
-Open `Source/Stationeers.Addons.sln` and start playing with it!
+## Сборка
+Требуется Visual Studio 2019, рекомендуется установка Visual Studio Tools for Unity.
+Прочтите файл [README] (Libraries/Stationeers/README.md).
+Откройте `Source / Stationeers.Addons.sln` и начните играть с ним!
 
-## Creating addons
-If you want to create your own addon, read here: [CREATING-ADDONS](Docs/CREATING-ADDONS.md).
+## Создание аддонов
+Если вы хотите создать свой собственный аддон, прочтите здесь: [CREATING-ADDONS] (Docs / CREATING-ADDONS.md).
 
-## Debugging addons
-If you want to debug your own addon, read here: [DEBUGGING-ADDONS](Docs/DEBUGGING-ADDONS.md).
+## Отладка аддонов
+Если вы хотите отладить собственное дополнение, прочтите здесь: [DEBUGGING-ADDONS] (Docs / DEBUGGING-ADDONS.md).
 
-## Addons
+## Аддоны
 * [Example Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2308921579) by Erdroy
 * [SEGI - Sonic Ether Global Illumination](https://steamcommunity.com/sharedfiles/filedetails/?id=2308956244) by Erdroy
 * [NormalQuarry](https://steamcommunity.com/sharedfiles/filedetails/?id=2621212864) by mehanic321
+*Напишите **Erdroy#0001** в Discord, если вы хотите, чтобы ваш мод был представлен здесь.*
 
-*DM **Erdroy#0001** on Discord, if you would like to get your mod featured here.*
-
-## Dependecies
+## Зависимости
 * Mono.Cecil
 * Harmony
 
-## Contributions
-We're accepting pull requests, look at our Trello board to find tasks that have not been completed, yet.
-You can hop in, take some and help us evolve this modding framework!
+## Помощь
+Мы принимаем Pull Requests, посмотрите на нашу доску Trello, чтобы найти задачи, которые еще не были выполнены.
+Вы можете сесть, взять немного и помочь нам развить этот фреймворк для моддинга!
+Хотя мы хотим сохранить согласованность модов, мы предлагаем не выпускать модифицированную копию этого программного обеспечения самостоятельно.
+В любом случае, это, безусловно, законно, если вы хотите это сделать.
 
-Although, we want to keep mod consistency, we're suggesting to not release modified copy of this software on your own.
-Anyway, this is certainly legal, if you would like to do that.
-
-## License
+## Лицензия
 MIT
-
 ___
-***Stationeers.Addons** is not affiliated with RocketWerkz. All trademarks and registered trademarks are the property of their respective owners.*<br>
-***Stationeers.Addons** (c) 2018-2021 Damian 'Erdroy' Korczowski & Contributors*
+***Stationeers.Addons** не связан с RocketWerkz. Все товарные знаки и зарегистрированные товарные знаки являются собственностью соответствующих владельцев.*<br>
+***Stationeers.Addons** (c) 2018-2021 Damian 'Erdroy' Korczowski & Авторы*
