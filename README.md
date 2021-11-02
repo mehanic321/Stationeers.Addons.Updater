@@ -18,14 +18,14 @@
 
 ## Сборка
 Требуется `Visual Studio 2019`, рекомендуется установка `Visual Studio Tools for Unity`.
-Прочтите файл [README] (Libraries/Stationeers/README.md).
+Прочтите файл [README](Libraries/Stationeers/README.md).
 Откройте `Source / Stationeers.Addons.sln` и начните играть с ним!
 
 ## Создание аддонов
-Если вы хотите создать свой собственный аддон, прочтите здесь: [CREATING-ADDONS] (Docs / CREATING-ADDONS.md).
+Если вы хотите создать свой собственный аддон, прочтите здесь: [CREATING-ADDONS](Docs/CREATING-ADDONS.md).
 
 ## Отладка аддонов
-Если вы хотите отладить собственное дополнение, прочтите здесь: [DEBUGGING-ADDONS] (Docs / DEBUGGING-ADDONS.md).
+Если вы хотите отладить собственное дополнение, прочтите здесь: [DEBUGGING-ADDONS](Docs/DEBUGGING-ADDONS.md).
 
 ## Аддоны
 * [Example Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2308921579) by Erdroy
